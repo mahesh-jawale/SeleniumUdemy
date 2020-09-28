@@ -1,10 +1,4 @@
-alphabets
-a
-b
-c
-d
-e
-f
+
 
 numbers
 1
