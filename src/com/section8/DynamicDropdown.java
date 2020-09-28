@@ -14,7 +14,9 @@ public class DynamicDropdown {
 		
 		System.setProperty("webdriver.chrome.driver", "C:\\Chrome Driver\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
-		System.out.println("dropdown program");
+		System.out.println("dropdown program1");
+		System.out.println("dropdown program2");
+		System.out.println("dropdown program3");
 		driver.get("https://www.spicejet.com/default.aspx");
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//input[@id='ctl00_mainContent_ddl_originStation1_CTXT']")).click();
